@@ -46,3 +46,24 @@ class MineCell{
     }
 
 }
+
+//this probably isn't going to work but Im trying to set up the number display for the cell
+public int cellnumdisplay(int x, int y)
+{
+    display=0
+    ys=y-1
+    xs=x-1
+    for(a=0;a>=2;a+1)
+        ys+=1
+        {
+            for(b=0;b>=2,b+1)
+                {
+                    if(Minecell[ys][xs] isActive=True)
+                    {
+                        display+=1
+                    }
+                    xs+=1
+                }
+        
+        }
+}
